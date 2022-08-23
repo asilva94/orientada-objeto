@@ -1,0 +1,42 @@
+
+public class Cupom {
+	
+	private long numero;
+	private String data;
+	private double total;
+	private double imposto;
+	
+	private void setNumero(long numero) {
+		this.numero = numero;
+	}
+	
+	private void setData(String data) {
+		this.data = data;
+	}
+	
+	private void setTotal(double total) {
+		this.total = total;
+	}
+	
+	private void setImposto(double imposto) {
+		this.imposto = imposto;
+	}
+	
+	private long getNumero() {
+		return numero;
+	}
+	
+	private String getData() {
+		return data;
+	}
+	
+	private double getTotal() {
+		return total;
+	}
+	
+	private double getImposto() {
+		return imposto;
+	}
+	
+
+}
